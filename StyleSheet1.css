@@ -1,0 +1,71 @@
+﻿body
+{
+    background-color: #ccc; 
+    margin: 0; 
+    padding: 0; 
+}
+#Page{ 
+    position: relative;
+    width:900px;
+    margin:0 auto; 
+    background-color:#eee; 
+
+}
+
+
+#Header h1 {
+   display: inline-block; 
+   position: relative;
+   top: -35px
+}
+#Header h2 
+{ 
+    position: absolute;  
+    right:20px;     
+    top: 20px; 
+}
+#Menu {
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    background-color: #DDD;
+    padding 5px 5px;
+    padding: 5px;
+    font-size: 1.2em;
+}
+.MenuCurrentPage {
+    background-color: #111;
+    color: #EEE;
+}
+
+
+
+}
+#Footer{
+    width:900px;
+    background-color:#DDD;
+    position:fixed;
+    bottom:0px;
+    text-align:center;
+}
+
+    
+
+#SubMenu :hover{
+    background-color: #999; 
+    color:#ccc; 
+}
+#Content 
+{
+    margin: 10px; 
+    min-height: 1000px; 
+    padding-bottom: 50px
+}
+#Content h2 
+{
+    border-bottom:solid 1px; 
+}
+.bold 
+{
+    font-weight: bold; 
+}
